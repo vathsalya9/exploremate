@@ -1,72 +1,80 @@
-# Getting Started with Create React App
+# ExploreMate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to ExploreMate – your ultimate travel companion! ExploreMate is a dynamic web application designed to help you discover attractions, hotels, and restaurants around you. Whether you're exploring a new city or looking for hidden gems in your hometown, ExploreMate has you covered with up-to-date information and interactive maps.
 
-API: 06ef47f7e6mshe0cd3a43c050c62p1012f0jsn28f21f7c18c1
+🛠️ # Features
 
-## Available Scripts
+Interactive Map: View attractions, hotels, and restaurants on a Google Map. Customize your search based on type and rating.
 
-In the project directory, you can run:
+Search Functionality: Filter places by type (e.g., Restaurants, Hotels, Attractions) and rating.
 
-### `npm start`
+Place Details: Get comprehensive information about each place including photos, ratings, reviews, and contact details.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Responsive Design: Works seamlessly on both desktop and mobile devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🚀 # Getting Started
+To get started with ExploreMate, follow these steps:
 
-### `npm test`
+*Prerequisites*
+Node.js and npm installed on your machine.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Installation
+Clone the repository:
 
-### `npm run build`
+git clone https://github.com/yourusername/ExploreMate.git
+cd ExploreMate
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm install
+Set up environment variables:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Create a .env file in the root directory and add your Google Maps API key and RapidAPI key:
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+REACT_APP_GOOGLE_MAPS_API_KEY=YOUR_GOOGLE_MAPS_API_KEY
+REACT_APP_RAPIDAPI_KEY=YOUR_RAPIDAPI_KEY
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Start the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm start
+Your application should now be running on http://localhost:3000.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+💻 # Project Structure
+Here's a quick overview of the project's file structure:
 
-## Learn More
+src/api/index.js: Contains the function for fetching place data from the API.
+src/App.js: Main component that handles the application logic and state.
+src/components/Header/Header.jsx: The header component displaying the title and search functionality.
+src/components/List/List.jsx: Displays the list of places with filtering options.
+src/components/Map/Map.jsx: Renders the Google Map and place markers.
+src/components/PlaceDetails/PlaceDetails.jsx: Shows detailed information about each place.
+src/components/styles.css: Contains the custom styles for the components.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🛠️ #Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+React: Front-end framework for building the user interface.
+Material-UI: UI library for React, providing components and styles.
+Google Maps API: For displaying interactive maps.
+RapidAPI: For fetching place data from the travel advisor API.
 
-### Code Splitting
+SCREENSHOTS OF WEBPAGE:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![image](https://github.com/user-attachments/assets/b5c532fb-f5b7-4ab2-aa7e-a42c08f4a5fd)
 
-### Analyzing the Bundle Size
+![image](https://github.com/user-attachments/assets/4ca01e24-bb9f-434c-b595-054fbaef0004)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![image](https://github.com/user-attachments/assets/e070d084-634f-4f66-92d9-cefb90596195)
 
-### Making a Progressive Web App
+![image](https://github.com/user-attachments/assets/9d237f51-dbb9-4846-9552-1fd89378fb8d)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
