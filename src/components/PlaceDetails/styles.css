@@ -1,0 +1,24 @@
+.chip {
+    margin: 0px 0px 0px 0px;
+  }
+  
+  .subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  
+  .spacing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+/* For Firefox */
+.scrollable {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: #888 #f1f1f1; /* Color of the scrollbar thumb and track */
+}
+
+  

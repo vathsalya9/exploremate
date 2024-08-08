@@ -1,0 +1,25 @@
+.paper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100px;
+}
+
+.mapContainer {
+  height: 70vh;
+  width: 100%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.typography {
+  text-align: center;
+}
+
+/* Hide the close button on InfoWindow */
+.gm-style-iw + div {
+  display: none;
+}
+

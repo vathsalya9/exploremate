@@ -1,0 +1,47 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #051650;
+  background-image: url('https://wallpapercave.com/wp/dllTcep.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40px;
+  color: #000000;
+  margin-bottom: '10px';
+}
+
+.title {
+  flex-grow: 1;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+}
+
+.search {
+  position: relative;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.searchIcon {
+  padding: 5px;
+  color: #394555;
+}
+
+.inputRoot {
+  color: inherit;
+  width: 100%;
+}
+
+.inputInput {
+  padding: 5px;
+  padding-left: 10px;
+  transition: width 0.3s;
+  width: 150px;
+}

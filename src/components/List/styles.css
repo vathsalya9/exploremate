@@ -1,0 +1,55 @@
+/* General Container */
+.container {
+  padding: 15px;
+}
+
+/* Typography */
+.container h4 {
+  margin-bottom: 20px;
+  font-size: 1.0rem;
+  color: #333;
+}
+
+.loading {
+  height: '600px';
+  display: 'flex';
+  justify-content: 'center';
+  align-items: 'center';
+}
+
+/* Form Control Styling */
+.formControl {
+  margin: 8px 0;
+  min-width: 150px;
+  margin-left: 20px;
+}
+
+/* Select Component Styling */
+.selectEmpty {
+  margin-top: 16px;
+}
+
+.customSelect {
+  margin-top: 10px; 
+  background-color: transparent;
+  color: #000000;
+}
+
+/* Custom Margin */
+.marginBottom {
+  margin-bottom: 10px;
+}
+
+/* Scrollable List */
+.list {
+  height: 70vh;
+  overflow-y: auto;
+  color: black;
+}
+
+/* Filters Container */
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
