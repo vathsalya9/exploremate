@@ -1,4 +1,3 @@
-
 const places = [
     {
         name: "Sample Place 1",
