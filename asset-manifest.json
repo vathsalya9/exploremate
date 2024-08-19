@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/exploremate/static/css/main.cb98b974.css",
+    "main.js": "/exploremate/static/js/main.63855228.js",
+    "index.html": "/exploremate/index.html",
+    "main.cb98b974.css.map": "/exploremate/static/css/main.cb98b974.css.map",
+    "main.63855228.js.map": "/exploremate/static/js/main.63855228.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb98b974.css",
+    "static/js/main.63855228.js"
+  ]
+}
